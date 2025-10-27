@@ -1,0 +1,8 @@
+{
+  "parent": "chat_gpt_edition:custom/agent_-_converted",
+  "textures": {
+    "all": "chat_gpt_edition:blocks/pc",
+    "particle": "chat_gpt_edition:blocks/pc",
+    "0": "chat_gpt_edition:blocks/pc"
+  }
+}

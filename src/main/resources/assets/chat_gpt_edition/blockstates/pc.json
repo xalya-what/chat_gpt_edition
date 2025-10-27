@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "chat_gpt_edition:block/pc"
+    }
+  }
+}

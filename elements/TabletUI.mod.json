@@ -1,0 +1,32 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "face.png",
+          "use1Xscale": false,
+          "name": "face.png",
+          "x": 199,
+          "y": 100
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 100,
+      "sy": 100,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

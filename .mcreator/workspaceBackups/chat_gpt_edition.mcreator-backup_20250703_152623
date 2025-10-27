@@ -1,0 +1,175 @@
+{
+  "mod_elements": [
+    {
+      "name": "Chatgpt6",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chatgpt_6"
+    },
+    {
+      "name": "Chatgpt1",
+      "type": "livingentity",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chatgpt_1"
+    },
+    {
+      "name": "Funbox",
+      "type": "livingentity",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funbox"
+    },
+    {
+      "name": "MicroGpt",
+      "type": "livingentity",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "micro_gpt"
+    },
+    {
+      "name": "TabletUI",
+      "type": "gui",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tablet_ui"
+    },
+    {
+      "name": "Death",
+      "type": "potion",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death"
+    },
+    {
+      "name": "Instakill",
+      "type": "enchantment",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "instakill"
+    },
+    {
+      "name": "Spawner",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawner",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pc",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pc"
+    },
+    {
+      "name": "Summoner",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summoner",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pvtnt",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pvtnt"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minecraft.tipped_arrow.effect.death": "Arrow of Death",
+      "enchantment.chat_gpt_edition.instakill": "Instakill",
+      "item.chat_gpt_edition.chatgpt_1_spawn_egg": "Chat_gpt 1 Spawn Egg",
+      "entity.chat_gpt_edition.micro_gpt": "Micro Gpt",
+      "block.chat_gpt_edition.pc": "Pc",
+      "item.chat_gpt_edition.funbox_spawn_egg": "Fun box Spawn Egg",
+      "block.chat_gpt_edition.pvtnt": "Pc tnt",
+      "entity.chat_gpt_edition.chatgpt_6": "Chat_gpt 6",
+      "item.minecraft.splash_potion.effect.death": "Splash Potion of Death",
+      "item.minecraft.potion.effect.death": "Potion of Death",
+      "entity.chat_gpt_edition.funbox": "Fun box",
+      "item.chat_gpt_edition.chatgpt_6_spawn_egg": "Chat_gpt 6 Spawn Egg",
+      "item.chat_gpt_edition.micro_gpt_spawn_egg": "Micro Gpt Spawn Egg",
+      "entity.chat_gpt_edition.chatgpt_1": "Chat_gpt 1",
+      "item.minecraft.lingering_potion.effect.death": "Lingering Potion of Death"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "chat_gpt_edition",
+    "modName": "chat_GPT edition",
+    "version": "1.0.0",
+    "author": "user, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.chatgptedition",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}
